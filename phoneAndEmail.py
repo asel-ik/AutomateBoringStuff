@@ -1,5 +1,4 @@
 import pyperclip, re
-# import PySide2 as pyperclip
 
 # create phone regular expression
 
@@ -47,3 +46,10 @@ if len(matches) > 0:
     print('\n'.join(matches))
 else:
     print('No phone numbers or email addresses found.')
+    
+# Now go to a website or any text you want to get phone numbers and email extracted from
+# Select the entire text/webpage - Ctrl+A / Cmnd+A
+# Copy the text - Ctrl+C / Cmnd+C
+# Run the program
+# The program will output the results printing 'Copied to clipboard:'
+# If nothing found the program will print: 'No phone numbers or email addresses found.'
